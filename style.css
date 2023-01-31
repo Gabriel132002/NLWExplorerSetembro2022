@@ -62,8 +62,6 @@ section {
     background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
     padding-top: 4px;
     border-radius: 10px;
-
-    position: relative;
 }
 
 section div{
@@ -73,16 +71,6 @@ section div{
     border-radius: 8px;
 
     /* border-top: 4px solid red; */
-}
-
-.icon{
-    margin: auto;
-    width: 50px;
-    height: 50px;
-
-    position: absolute;
-    right: 0;
-    top: 50%;
 }
 
 section h2 {
@@ -158,17 +146,6 @@ main section:nth-child(3){
     from {
         opacity: 0;
         transform: translateX(-30px);
-     }
-
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes fromRight {
-    from {
-        transition: margin-left .2s
      }
 
     to {
